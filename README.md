@@ -1,4 +1,4 @@
-# TELCO-CUSTOMER-CHURN-ANALYSIS-REPORT
+
 # 📊 Telco Customer Churn Analysis
 
 <p align="center">
@@ -166,7 +166,6 @@ This segmentation was visualized using a Doughnut Chart to understand customer d
 
 Include screenshots from your notebook.
 
-Example:
 
 ```markdown
 ## Customer Churn Distribution
@@ -254,15 +253,15 @@ telco-customer-churn-analysis/
 
 # 👨‍💻 Author
 
-**Ede**
+**Ede Stan.C.**
 
 **Statistics Graduate | Google Data Analytics Professional Certificate | Aspiring Data Analyst & Business Intelligence Analyst**
 
-📧 Email: *(Your Email)*
+📧 Email: *edestanc@gmail.com*
 
-💼 LinkedIn: *(Your LinkedIn URL)*
+💼 LinkedIn: *⁠https://www.linkedin.com/in/ede-stan-c-05a844405⁠*
 
-🐙 GitHub: *(Your GitHub URL)*
+🐙 GitHub: *https://github.com/edestanc-art⁠*
 
 ---
 
