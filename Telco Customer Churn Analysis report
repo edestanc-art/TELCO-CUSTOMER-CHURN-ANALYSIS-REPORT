@@ -4,7 +4,7 @@ Role: Data Analyst / Business Analyst
 Tools Used: Python, Pandas, NumPy, Matplotlib, Google Colab
 Project Type: Exploratory Data Analysis (EDA) & Customer Churn Analysis
 
-Executive Summary
+# Executive Summary
 Customer churn remains a significant challenge for telecommunication companies, as losing customers negatively impacts revenue and increases the cost of acquiring new customers. This project analyzes a telecom customer dataset to identify the key factors associated with customer churn and provide actionable recommendations to improve customer retention.
 Using Python and data analysis libraries, the dataset was cleaned, explored, and visualized to uncover trends in customer demographics, service usage, contract types, payment methods, and customer tenure. The analysis revealed that customers with short tenure, month-to-month contracts, and higher monthly charges were more likely to churn.
 The insights generated from this project can help organizations design targeted retention strategies and improve customer loyalty.
