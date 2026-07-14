@@ -164,8 +164,6 @@ This segmentation was visualized using a Doughnut Chart to understand customer d
 
 # 📊 Key Visualizations
 
-Include screenshots from your notebook.
-
 
 ```markdown
 ## Customer Churn Distribution
