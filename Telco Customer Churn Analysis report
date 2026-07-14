@@ -1,0 +1,128 @@
+Telco Customer Churn Analysis Report
+Author: Ede Stan. C.
+Role: Data Analyst / Business Analyst
+Tools Used: Python, Pandas, NumPy, Matplotlib, Google Colab
+Project Type: Exploratory Data Analysis (EDA) & Customer Churn Analysis
+
+Executive Summary
+Customer churn remains a significant challenge for telecommunication companies, as losing customers negatively impacts revenue and increases the cost of acquiring new customers. This project analyzes a telecom customer dataset to identify the key factors associated with customer churn and provide actionable recommendations to improve customer retention.
+Using Python and data analysis libraries, the dataset was cleaned, explored, and visualized to uncover trends in customer demographics, service usage, contract types, payment methods, and customer tenure. The analysis revealed that customers with short tenure, month-to-month contracts, and higher monthly charges were more likely to churn.
+The insights generated from this project can help organizations design targeted retention strategies and improve customer loyalty.
+1. Business Problem
+Customer churn is costly for businesses because replacing lost customers often requires significant marketing and acquisition expenses. Understanding the characteristics of customers who are likely to leave enables organizations to implement proactive retention strategies.
+This project addresses the following business questions:
+Which customers are most likely to churn?
+Does customer tenure influence churn?
+How does contract type affect retention?
+Do higher monthly charges increase churn?
+Which payment methods are associated with higher churn?
+2. Project Objectives
+The objectives of this analysis were to:
+Clean and preprocess the customer dataset.
+Perform exploratory data analysis (EDA).
+Analyze customer churn patterns.
+Segment customers by tenure.
+Identify key drivers of churn.
+Develop business recommendations based on the findings.
+3. Dataset Overview
+The dataset contains customer information, including:
+•	Customer ID
+•	Gender
+•	Senior Citizen status
+•	Partner and Dependents
+•	Phone Service
+•	Internet Service
+•	Contract Type
+•	Payment Method
+•	Monthly Charges
+•	Total Charges
+•	Customer Tenure
+•	Customer Churn Status
+4. Data Preparation
+The following preprocessing steps were completed before analysis:
+•	Examined the dataset structure and data types.
+•	Checked for missing values.
+•	Handled missing values in the Total Charges column.
+•	Standardized column names by converting them to lowercase and replacing spaces with underscores.
+•	Verified duplicate records.
+•	Created tenure groups to facilitate customer segmentation.
+These steps ensured the dataset was accurate, consistent, and ready for analysis.
+5. Exploratory Data Analysis
+Several exploratory analyses were conducted to understand the dataset.
+These included:
+•	Summary statistics
+•	Histograms
+•	Boxplots
+•	Churn distribution analysis
+•	Customer segmentation
+•	Tenure analysis
+•	Contract analysis
+•	Payment method analysis
+•	Internet service analysis
+Visualizations were created to communicate patterns effectively.
+6. Customer Segmentation
+Customers were segmented according to their tenure:
+•	0–12 Months
+•	13–36 Months
+•	37+ Months
+A doughnut chart was used to visualize the proportion of customers within each tenure group.
+This segmentation provided insight into customer lifecycle stages and retention behavior.
+7. Key Findings
+The analysis produced several important insights.
+•	Customer Churn
+Customers on month-to-month contracts experienced significantly higher churn rates compared to customers on one-year and two-year contracts.
+•	Customer Tenure
+Customers with shorter tenure were considerably more likely to churn than long-term customers.
+This suggests that customer retention efforts should focus on the early stages of the customer lifecycle.
+•	Monthly Charges
+Customers with higher monthly charges generally exhibited higher churn rates.
+Pricing and perceived value may therefore influence customer retention.
+•	Payment Method
+Customers paying through Electronic Check showed relatively higher churn rates than customers using other payment methods.
+•	Customer Retention
+Long-term customers demonstrated lower churn rates, indicating increased loyalty over time.
+8. Business Recommendations
+Based on the findings, the following recommendations are proposed:
+•	Encourage Longer-Term Contracts
+Provide incentives that encourage customers to migrate from month-to-month contracts to annual or multi-year contracts.
+•	Improve Customer Onboarding
+Develop customer engagement programs during the first year to reduce early churn.
+•	Target High-Risk Customers
+Use customer tenure, monthly charges, and contract type to identify customers who may require proactive retention campaigns.
+•	Review Pricing Strategy
+Evaluate pricing for customers with higher monthly charges and introduce loyalty discounts where appropriate.
+•	Promote Value-Added Services
+Encourage adoption of services such as Technical Support and Online Security to improve customer satisfaction and long-term retention.
+9. Conclusion
+This project demonstrates how exploratory data analysis can generate meaningful business insights from customer data.
+By identifying the characteristics associated with customer churn, organizations can implement evidence-based retention strategies that improve customer satisfaction and reduce revenue loss.
+The project also strengthened practical skills in:
+•	Data Cleaning
+•	Data Wrangling
+•	Exploratory Data Analysis
+•	Customer Segmentation
+•	Data Visualization
+•	Business Insight Generation
+•	Business Recommendation Development
+10. Skills Demonstrated
+•	Python Programming
+•	Pandas
+•	NumPy
+•	Matplotlib
+•	Data Cleaning
+•	Data Transformation
+•	Exploratory Data Analysis (EDA)
+•	Customer Segmentation
+•	Data Visualization
+•	Business Analysis
+•	Analytical Thinking
+•	Business Communication
+11. Future Work
+Future enhancements to this project include:
+•	Building machine learning models to predict customer churn.
+•	Comparing Logistic Regression, Decision Trees, Random Forest, and XGBoost models.
+•	Developing an interactive Power BI dashboard.
+•	Deploying the analysis as a Streamlit web application.
+Appendix
+Repository: https://github.com/edestanc-art/TELCO-CUSTOMER-CHURN-ANALYSIS-REPORT
+LinkedIn: https://www.linkedin.com/in/ede-stan-c-05a844405
